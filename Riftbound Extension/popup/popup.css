@@ -1,0 +1,32 @@
+body {
+    width: 350px;
+    min-height: 400px;
+    margin: 0;
+    padding: 16px;
+
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+#search {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.card img {
+    width: 50px;
+}

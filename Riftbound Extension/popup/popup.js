@@ -1,0 +1,1 @@
+console.log("Riftbound Wishlist loaded!");

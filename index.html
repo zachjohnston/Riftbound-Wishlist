@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Riftbound Wishlist is a Chrome extension for managing Riftbound card wishlists, importing decklists, and finding wishlist cards on supported webpages.">
+    <title>Riftbound Wishlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav">
+            <a class="brand" href="#top">Riftbound Wishlist</a>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#status">Status</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">CHROME EXTENSION · RIFTBOUND</p>
+                    <h1>Keep track of the cards you want.</h1>
+                    <p class="hero-text">
+                        Riftbound Wishlist is a lightweight Chrome extension for searching Riftbound cards,
+                        building a personal wishlist, importing decklists, and spotting wishlist cards while
+                        browsing supported websites.
+                    </p>
+
+                    <div class="buttons">
+                        <a class="button primary" href="#status">View project status</a>
+                        <a class="button secondary" href="#features">Learn more</a>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <div class="window-bar">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="mock-popup">
+                        <div class="mock-title">Riftbound Wishlist</div>
+                        <div class="search-box">Search cards...</div>
+
+                        <div class="wishlist-item">
+                            <div class="card-placeholder">CARD</div>
+                            <div class="item-info">
+                                <strong>Svellsongur</strong>
+                                <span>Wishlist quantity: 3</span>
+                            </div>
+                        </div>
+
+                        <div class="wishlist-item">
+                            <div class="card-placeholder">CARD</div>
+                            <div class="item-info">
+                                <strong>Premonition</strong>
+                                <span>Wishlist quantity: 2</span>
+                            </div>
+                        </div>
+
+                        <div class="wishlist-item">
+                            <div class="card-placeholder">CARD</div>
+                            <div class="item-info">
+                                <strong>Blue Sentinel</strong>
+                                <span>Wishlist quantity: 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container">
+                <p class="eyebrow">FEATURES</p>
+                <h2>Built around the way players browse cards.</h2>
+
+                <div class="feature-grid">
+                    <article class="feature">
+                        <div class="feature-number">01</div>
+                        <h3>Card search</h3>
+                        <p>Search the Riftbound card library and add cards directly to your wishlist.</p>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature-number">02</div>
+                        <h3>Wishlist management</h3>
+                        <p>Track the cards and quantities you want in a compact extension popup.</p>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature-number">03</div>
+                        <h3>Decklist import</h3>
+                        <p>Import a decklist and use its cards as the starting point for a wishlist.</p>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature-number">04</div>
+                        <h3>Page detection</h3>
+                        <p>When a supported webpage contains a card on your wishlist, the extension can highlight it and notify you.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="section section-alt">
+            <div class="container">
+                <p class="eyebrow">HOW IT WORKS</p>
+                <h2>Simple by design.</h2>
+
+                <div class="steps">
+                    <div class="step">
+                        <span>1</span>
+                        <div>
+                            <h3>Search or import</h3>
+                            <p>Find individual cards or import an existing decklist.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <span>2</span>
+                        <div>
+                            <h3>Set quantities</h3>
+                            <p>Choose how many copies of each card you want.</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <span>3</span>
+                        <div>
+                            <h3>Browse normally</h3>
+                            <p>The extension checks supported webpages for cards on your wishlist.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="status" class="section">
+            <div class="container status-card">
+                <div>
+                    <p class="eyebrow">PROJECT STATUS</p>
+                    <h2>Currently in development.</h2>
+                    <p>
+                        The extension is being developed as a personal utility for Riftbound players.
+                        Riot API integration and the Chrome Web Store release are currently being worked on.
+                    </p>
+                </div>
+
+                <div class="status-list">
+                    <div><span class="status-dot"></span> Chrome extension — In development</div>
+                    <div><span class="status-dot"></span> Card search — Planned</div>
+                    <div><span class="status-dot"></span> Wishlist — Planned</div>
+                    <div><span class="status-dot"></span> Decklist import — Planned</div>
+                    <div><span class="status-dot"></span> Webpage detection — Planned</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-small">
+            <div class="container">
+                <div class="developer-note">
+                    <h2>About the project</h2>
+                    <p>
+                        Riftbound Wishlist is an independent fan-made project. It is intended to provide
+                        convenient card discovery and wishlist functionality without changing or automating
+                        Riftbound gameplay.
+                    </p>
+                    <p class="disclaimer">
+                        Riftbound and related intellectual property are owned by Riot Games and its respective
+                        licensors. This project is not endorsed by or affiliated with Riot Games.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <span>Riftbound Wishlist</span>
+            <span>Independent fan project · 2026</span>
+        </div>
+    </footer>
+</body>
+</html>
